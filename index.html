@@ -10,10 +10,10 @@
 		}
 		#content{
 			display: grid;
-			/*grid-template-columns: 33.3% 33.3% 33.3%;*/
-			/*grid-template-columns: 2fr 1fr 3fr;*/
-			grid-template-columns: repeat(9, 1fr);
-
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(3, minmax(200px, auto));
+			/*grid-auto-rows:minmax(50px, auto);*/
+			grid-gap:10px;
 			max-width: 960px;
 			margin: 0 auto;
 		}
@@ -31,7 +31,7 @@
 	<div id="content">
 
 		<div>1</div>
-		<div>2</div>
+		<div>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, deleniti dolor excepturi saepe aliquam eius assumenda molestiae, repellat optio cum sapiente ratione consequatur quis, deserunt doloribus. Doloribus corrupti blanditiis iure?</div>
 		<div>3</div>
 		<div>4</div>
 		<div>5</div>
